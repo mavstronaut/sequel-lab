@@ -1,5 +1,17 @@
 <h1>Eat-Da-Sequel-Burger!</h1>
 
+
+<h2>What would you like to eat?</h2>
+
+<div class="row">
+  <div class="col s12">
+    <form action="/burgers" method="POST">
+      <input type="text" id="name" name="name" placeholder="Build Your Own Sandwich">
+      <button type="submit" class="addBurgerButton">Build Your Own Sandwich</button>
+    </form>
+  </div>
+</div>
+
 <main>
   <div class="container">
     <div class="row">
@@ -39,13 +51,3 @@
   </div> <!-- End container -->
 </main>
 
-<h2>Add A Burger Option</h2>
-
-<div class="row">
-  <div class="col s12">
-    <form action="/burgers" method="POST">
-      <input type="text" id="name" name="name" placeholder="Uber Delicious Burger">
-      <button type="submit" class="addBurgerButton">Add The Burger</button>
-    </form>
-  </div>
-</div>
